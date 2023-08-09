@@ -1,0 +1,267 @@
+@media only screen and (max-width:600px) {
+
+    #menu{
+
+        color: #fff;
+        display: block;
+        font-size: 22px;
+        background-color: #20253d;
+    }
+    nav ul{
+        background:#20253d ;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 300px;
+        height: 100vh;
+        padding-top: 50px;
+        right: -300px;
+        z-index: 2;
+        transition: .5s;
+
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+        background-color: #20253d;
+
+    }
+    nav ul li a{
+        background-color: #20253d;
+    }
+    nav ul #menu{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .navbar{
+        padding: 20px 8%;
+    }
+    .logo{
+    font-size: 20px;
+    
+    }   
+
+
+    .profilepic{
+        display: none;
+    }
+    .page{
+        display: block;
+        height: 40vh;
+    }
+    
+    .home{
+        height: 100%;
+        width: 100%;
+        }
+    
+    .text{
+        height: 100%;
+        width: 100%;
+
+    }
+    .wrap{
+        
+    }
+    .text h1{
+        
+        font-weight: 400;
+        font-size:40px;
+        margin:10px 25px;
+    }
+    .text p{
+        font-size: 18px;
+       
+    }
+    .hirebtn{
+        padding: 12px;
+        margin-right: 30px;
+        font-size: 14px;
+    }
+    .downloadbtn{
+        
+        padding: 15px;
+        font-size: 14px;
+        /* margin-bottom: 30px; */
+
+    }
+
+
+    .aboutpage{
+        width: 100%;
+        height: 110vh;
+        /* border: 1px solid red; */
+        display: block;
+    
+    }
+    .abouthome{
+        height: 100%;
+        width: 100%;
+        /* border: 1px solid green; */
+        
+        }
+        .abouttext{
+            font-size: 30px;
+            margin: 0 0 10px 20px;
+        }
+        .boxwrap{
+            display: block;
+        }
+        .abtbox{
+            width: 100%;
+            height:50%;
+        }
+        .abtp{
+            /* padding: 10px; */
+            margin-bottom: 20px;
+        }
+        .abouttext{
+            font-weight: 300;
+            margin: 0 0 0 20px;
+            
+        }
+        .skil{
+            width: 100%;
+            height: 18%;
+            /* border: 1px solid blue; */
+            /* padding: 10px; */
+        }
+        .servicepage{
+            width: 100%;
+            height: 160vh;
+            
+        
+        }
+        .servicehome{
+            height: 100%;
+            width: 100%;
+            /* border: 1px solid green; */
+            display: block;
+            }
+
+
+        .services{
+            height: 95%;
+            width: 100%;
+            display: block;
+            margin-left: 0px;
+            
+        }
+        .servicescard{
+            
+            width:70%;
+            height: 25%;
+            padding: 20px;
+            font-size: 14px;
+            font-weight: 300;
+            margin: 30px  40px;
+        }
+        .recentpage{
+            height: 170vh;
+        }
+        .rechome{
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+        .recentwork{
+            height: 80%;
+            width: 100%;
+            display: block;
+            
+            
+        }
+        .recentcard{
+            width:70%;
+            height: 25%;
+            padding: 20px;
+            font-size: 14px;
+            font-weight: 300;
+            margin: 30px 40px;
+            
+        }
+        .recimg{
+            width: 100%;
+           
+        }
+        .btmbox{
+            width: 100%;
+            height: 5%;
+            padding: 0;
+            display: flex;
+            /* margin-bottom: ; */
+        }
+        .btmbox a{
+            margin: 0;
+        }
+        .conpage{
+            width: 100%;
+            height: 100vh;
+            /* border: 1px solid red; */
+            display: flex;
+            justify-content: center;
+        
+        }
+        .conhome{
+    
+            height: 100%;
+            width: 100%;
+            /* border: 1px solid green; */
+                
+                
+        }
+        .conboxwrap{
+            display: block;
+            height:70%;
+        }
+        .conboxl{
+            height: 40%;
+            width: 100%;
+            /* border: 1px solid red; */
+            padding: 10px;
+            margin-top: 30px;
+        }
+        
+        .conboxr{
+            height: 60%;
+            width: 90%;
+            padding:10px; 
+            /* border: 1px solid red; */
+        }
+        .copypage{
+            width: 100%;
+            height: 10vh;
+        }
+        .copyboxwrap{
+            width: 100%;
+            height: 10%;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        .copytext{
+            margin-top: 40px;
+            font-size: 10px;
+            
+            width: 100%;
+            padding: 0px;
+        }
+
+
+        
+
+}
+
+
+
