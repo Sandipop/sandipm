@@ -5,6 +5,7 @@
     font-family: 'Poppins', sans-serif;
     /* font-family: 'Victor Mono', monospace; */
     background-color: #090c31;
+    box-sizing: border-box;
 }
 
 .navbar{
@@ -54,37 +55,20 @@ nav ul li a:hover::after{
 }
 
 
-
-
-
-
-
-.page{
+.hero{
     width: 100%;
-    height: 70vh;
-    /* border: 1px solid red; */
-    display: flex;
-    justify-content: center;
-
-}
-
-.home{
-height: 100%;
-width: 60%;
-/* border: 1px solid green; */
-display: flex;
-}
-.text{
-    height: 100%;
-    width: 50%;
+    height: 60vh;
     display: flex;
     align-items: center;
-    margin-left: 20px;
-    
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    /* border: 1px solid red; */
     
 }
-.wrap{
-    width: 100%;
+.text{
+    /* margin-left: 20px; */
+    margin-right: 20px;
 }
 .text h1{
     font-family: 'Victor Mono', monospace;
@@ -101,21 +85,17 @@ display: flex;
     margin: 0 30px 30px 30px;
     margin-bottom: 50px;
 }
-.profilepic{
-    width: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
+
 .profilepic img{
-    width: 80%;
+    width:360px ;
 }
 .buttons{
     margin: 30px;
 }
 .projectbtn{
    background-color: #00adb5; 
+
    
 }
 .hirebtn{
@@ -133,6 +113,7 @@ display: flex;
     border: 1px solid #00adb5;
     
     
+    
 }
 .hover:hover{
     background-color: #00adb5; 
@@ -140,57 +121,43 @@ display: flex;
     
 }
 
-
-.abouttext{
+.sec{
     
+    width: 100%;
+    margin-top: 50px;
+}
+.sec h1{
     font-family: 'Noto Serif JP', serif;
     color: #fff;
     font-weight: 300;
-    margin: 0 30px 30px 20px;
-    
+    margin-left: 310px;
 }
-.abouttext span{
+.sec h1 span{
     font-family: 'Noto Serif JP', serif;
     color: #00adb5;
 }
-.noflex{
-    display: block;
-}
 
-.aboutpage{
-    width: 100%;
-    height: 70vh;
+.about{
     /* border: 1px solid red; */
     display: flex;
+    align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    /* gap: 10px; */
+    /* width: 100%; */
+    height: 55vh;
+}
+.about .abtext{
+width: 480px;
+padding: 0 10px;
+
 
 }
-
-.abouthome{
-height: 100%;
-width: 60%;
-/* border: 1px solid green; */
-
-}
-.boxwrap{
-    height: 100%;
-    width: 100%;
-    display: flex;
-}
-.conboxwrap{
-    height: 100%;
-    width: 100%;
-    display: flex;
-}
-.abtbox{
-    height: 100%;
-    width: 50%;
-    /* border: 1px solid red; */
-}
-.abtp{
+.about .abtext p{
     color: #fff;
     font-size: 16px;
     padding: 20px;
+    margin-top: 30px;
     font-weight: 300;
     text-align: left;
     line-height: 2; 
@@ -209,13 +176,19 @@ width: 60%;
     transition: .5s;
 }
 .downloadbtn:hover{
-    transform: translateY(-10px);
     background-color: #00adb5; 
+    transform: translateY(5px);
     
 }
+.skilsec{
+    width: 480px;
+    padding: 0 20px;
+}
+
 .skil{
     width: 100%;
     height: 15%;
+    margin-bottom: 10px;
     /* border: 1px solid blue; */
     /* padding: 10px; */
 }
@@ -304,34 +277,28 @@ width: 60%;
     }
 }
 
-.servicepage{
-    width: 100%;
-    height: 70vh;
-    /* border: 1px solid red; */
-    display: flex;
-    justify-content: center;
-    
-}
-.servicehome{
-    height: 100%;
-    width: 60%;
-    /* border: 1px solid green; */
-    
-    }
+
+
+
 .services{
-    height: 60%;
+    height: 50vh;
     width: 100%;
     display: flex;
+    align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+
+    /* border: 1px solid red; */
 }
 .servicescard{
     background-color: #20253d;
-    height: 85%;
-    width: 33%;
+    height: 320px;
+    width: 260px;
     padding: 20px;
     font-size: 14px;
     font-weight: 300;
-    margin: 20px;
+    /* margin: 20px; */
     border-radius: 10px;
     transition: background 0.5s, transform 0.5s;
     cursor: pointer;
@@ -377,39 +344,26 @@ width: 60%;
 }
 
 
-.recentpage{
+.recent{
+    height: 50vh;
     width: 100%;
-    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+
     /* border: 1px solid red; */
-    display: flex;
-    justify-content: center;
-
-}
-.rechome{
-    
-    height: 100%;
-    width: 60%;
-    /* border: 1px solid green; */
-    
-        
 }
 
-
-
-.recentwork{
-    height: 60%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
 .recentcard{
     background-color: #20253d;
-    height: 85%;
-    width: 33%;
-    padding: 10px;
+    height: 320px;
+    width: 260px;
+    padding: 20px;
     font-size: 14px;
     font-weight: 300;
-    margin: 20px;
+    /* margin: 20px; */
     border-radius: 10px;
     transition: background 0.5s, transform 0.5s;
     cursor: pointer;
@@ -427,16 +381,16 @@ width: 60%;
     padding: 5px;
     margin-bottom: 10px;
 }
-.btmbox{
+.buttonbox{
     width: 100%;
     height: 10%;
-    padding: 20px 0 0 0;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     /* border: 1px solid red; */
 }
-.btmbox a{
+.buttonbox a{
     text-decoration: none;
     color: #fff;
     
@@ -448,40 +402,28 @@ width: 60%;
     border: 1px solid #00adb5 ;
     transition: .5s;
 }
-.btmbox a:hover{
+.buttonbox a:hover{
     background-color: #00adb5;
     transform: translateY(-5px);
 }
-.conpage{
+.contact{
+    height: 60vh;
     width: 100%;
-    height: 70vh;
-    /* border: 1px solid red; */
     display: flex;
+    align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
 
-}
-
-.conhome{
-    
-    height: 100%;
-    width: 60%;
-    /* border: 1px solid green; */
-    
-        
-}
-.conboxl{
-    height: 100%;
-    width: 30%;
-    /* border: 1px solid red; */
-    padding: 40px 0 0 0;
-    margin-top: 30px;
-}
-.conboxr{
-    height: 100%;
-    width: 70%;
-    padding: 20px 0 0 0 ; 
     /* border: 1px solid red; */
 }
+.conleft{
+    width: 20%;
+}
+.conright{
+    width: 35%
+}
+
 .iconwrap{
     display: flex;
     align-items: center;
@@ -506,7 +448,7 @@ width: 60%;
     font-size: 16px;
 }
 form input, form textarea{
-    width: 95%;
+    width: 100%;
     border: 0;
     outline: none;
     background: #20253d;
@@ -561,45 +503,13 @@ form input, form textarea{
         transform: rotate(1turn);
     }
 }
-.copypage{
+.foot{
     width: 100%;
-    height: 70vh;
-    /* border: 1px solid red; */
+    margin:  50px 0;
     display: flex;
+    align-items: center;
     justify-content: center;
-
 }
-.copyright{
-    height: 10vh;
-    
-    
+.foot p{
+    color:#232656;
 }
-.copycolor{
-    
-
-}
-.copytext{
-    margin-top: 60px;
-    color: #b6b7d0;
-    text-align: center;
-    width: 100%;
-    padding: 20px;
-    font-size: 12px;
-}
-#msg{
-    color: #61b752;
-    font-size: 14px;
-    padding:0 0 10px 20px;
-    
-
-}
-.tick{
-    font-size: 20px;
-}
-
-
-  
-
-
-
-
