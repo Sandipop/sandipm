@@ -6,6 +6,7 @@
     /* font-family: 'Victor Mono', monospace; */
     background-color: #090c31;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .navbar{
@@ -512,4 +513,15 @@ form input, form textarea{
 }
 .foot p{
     color:#232656;
+}
+
+#msg{
+    color: #61b752;
+    font-size: 14px;
+    padding:0 0 10px 20px;
+    
+
+}
+.tick{
+    font-size: 20px;
 }
