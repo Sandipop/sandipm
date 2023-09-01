@@ -164,6 +164,11 @@ nav ul li a:hover::after{
     /* width: 100%; */
     height: 55vh;
 }
+.abticon{
+    color: #00adb5;
+    font-size: 30px;
+    padding:20px 10px 20px 0;
+}
 .about .abtext{
 width: 480px;
 padding: 0 10px;
