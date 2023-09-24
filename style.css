@@ -162,7 +162,7 @@ nav ul li a:hover::after{
     flex-wrap: wrap;
     /* gap: 10px; */
     /* width: 100%; */
-    /* height: 55vh; */
+    /* height: 65vh; */
 }
 .abticon{
     color: #00adb5;
@@ -171,6 +171,7 @@ nav ul li a:hover::after{
 }
 .about .abtext{
 width: 480px;
+
 padding: 0 10px;
 
 
@@ -183,6 +184,7 @@ padding: 0 10px;
     font-weight: 300;
     text-align: left;
     line-height: 2; 
+    margin-bottom: 10px;
     
     
     
@@ -204,7 +206,7 @@ padding: 0 10px;
 }
 .skilsec{
     width: 480px;
-    
+    /* height: auto; */
     padding: 0 20px;
 }
 
