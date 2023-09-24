@@ -44,7 +44,7 @@
     }  
     
     .hero{
-        height: 30vh;
+        height: 40vh;
     }
     .profilepic img{
         display: none;
@@ -54,16 +54,16 @@
        
     }
     .about{
-        height: 90vh;
+        height: 110vh;
     }
     .services{
-        height: 130vh;
+        height: 150vh;
         margin-top: 50px;
         
 
     }
     .recent{
-        height: 130vh;
+        height: 150vh;
         margin-top: 50px;
     }
     .buttonbox a{
@@ -73,7 +73,7 @@
        
     }
     .contact{
-        height: 75vh;
+        height: 80vh;
         gap: 0;
     }
     .conleft{
