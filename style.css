@@ -111,7 +111,7 @@ nav ul li a:hover::after{
     margin: 30px;
 }
 .projectbtn{
-   background-color: #00adb5; 
+   /* background-color: #00adb5;  */
 
    
 }
@@ -126,28 +126,26 @@ nav ul li a:hover::after{
     transition: .5s;
 }
 .hirebtn:hover{
-    background-color: #090c31;
-    border: 1px solid #00adb5;
+    transform: translateY(-5px);
+    background-color: #00adb5;
     
     
     
 }
-.hover:hover{
-    background-color: #00adb5; 
-    
-    
-}
+
 
 .sec{
     
     width: 100%;
     margin-top: 50px;
+    display: flex;
 }
 .sec h1{
     font-family: 'Noto Serif JP', serif;
     color: #fff;
     font-weight: 300;
     margin-left: 270px;
+    margin-right: 50px;
 }
 .sec h1 span{
     font-family: 'Noto Serif JP', serif;
@@ -201,106 +199,40 @@ padding: 0 10px;
 }
 .downloadbtn:hover{
     background-color: #00adb5; 
-    transform: translateY(5px);
+    transform: translateY(-5px);
     
 }
 .skilsec{
     width: 480px;
     /* height: auto; */
-    padding: 0 20px;
-}
+    /* border: 1px solid red; */
 
-.skil{
-    width: 100%;
-    height: 15%;
-    margin-bottom: 10px;
-    /* border: 1px solid blue; */
-    /* padding: 10px; */
-}
-.perwrap{
+    padding: 20px 40px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
-.per{
-    color: #fff;
-    padding: 16px;
-    font-size: 14px;
-}
-.sliklable{
-    color: #fff;
-    padding: 16px;
-    font-size: 16px;
-}
-.skilbar{
-    /* height: ; */
-    width: 90%;
-    border: 1px solid #00adb5;
-    margin-left: 20px;
+.skilicon{
+    width: 80px;
+    height: 80px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px; 
     border-radius: 5px;
-}
-
-.skilper1{
-    height: 5px;
-    width: 0;
-    background-color: #00adb5;
-    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
     
+}
+.skilicon:hover{
+    transform: translateY(-5px)
+}
+.skilicon img{
+    width: 80%;
 }
 
 
-.skilper2{
-    height: 5px;
-    width: 0;
-    background-color: #00adb5;
-    border-radius: 5px;
-    
-}
-.skilper3{
-    height: 5px;
-    width: 0;
-    background-color: #00adb5;
-    border-radius: 5px;
-    
-}
-.skilper4{
-    height: 5px;
-    width: 0;
-    background-color: #00adb5;
-    border-radius: 5px;
-    
-}
-.skilper1{
-    animation: html-fill 2s forwards;
-}
-@keyframes html-fill{
-    100%{
-        width: 90%;
-    }
-}
-.skilper2{
-    animation: css-fill 2s forwards;
-}
-@keyframes css-fill{
-    100%{
-        width: 75%;
-    }
-}
-.skilper3{
-    animation: js-fill 2s forwards;
-}
-@keyframes js-fill{
-    100%{
-        width: 50%;
-    }
-}
-.skilper4{
-    animation: re-fill 2s forwards;
-}
-@keyframes re-fill{
-    100%{
-        width: 10%;
-    }
-}
 
 
 
