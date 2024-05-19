@@ -315,7 +315,7 @@ padding: 0 10px;
 
 .recentcard{
     background-color: #20253d;
-    /* height: 320px; */
+    min-height: 320px;
     width: 260px;
     padding: 20px;
     font-size: 14px;
