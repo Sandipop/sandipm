@@ -250,7 +250,7 @@ padding: 0 10px;
 }
 .servicescard{
     background-color: #20253d;
-    height: 320px;
+    
     width: 260px;
     padding: 20px;
     font-size: 14px;
@@ -264,7 +264,7 @@ padding: 0 10px;
     transform: translateY(-10px);
 }
 .servicescard h2{
-    font-size: 25px;
+    font-size: 20px;
     color: #fff;
     background-color: #20253d;
     padding: 5px;
@@ -315,7 +315,7 @@ padding: 0 10px;
 
 .recentcard{
     background-color: #20253d;
-    height: 320px;
+    /* height: 320px; */
     width: 260px;
     padding: 20px;
     font-size: 14px;
